@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    const PI = 3.14;
+
+    function chuVi(num) {
+        var result = PI * 2 * num;
+        return result;
+    }
+
+    function dienTich(num) {
+        var result = Math.pow(num, 2) * PI;
+        return result;
+    }
+
+    var num = parseFloat(prompt("Nhap so: "));
+    var result1 = chuVi(num);
+    var result2 = dienTich(num);
+    document.write("Chu vi hinh tron la: " + result1 + " ");
+    document.write("Dien tich hinh tron la" + result2 + ".");
+
+</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function giaiThua(n) {
+        var div = 1;
+        for(var i = 1; i <= n; i++){
+            div *= i;
+        } return div;
+    }
+    var n = parseInt(prompt('n: '));
+    var result = giaiThua(n);
+    document.write(result)
+</script>
+</body>
+</html>

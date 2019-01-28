@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var input = prompt("Input character: ");
+
+
+
+    function nguyenAm(input) {
+        if (input === "a" && input === "e" && input === "i" && input === "o" && input === "u") {
+            return false;
+        } else if(input === "A" && input === "E" && input === "I" && input === "O" && input === "U") {
+            return false;
+        } else {
+            return true;
+        }
+    }
+    var result = nguyenAm(input);
+    document.write("Gia tri tra ve la: " + result);
+</script>
+</body>
+</html>

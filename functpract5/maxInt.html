@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var a = parseInt(prompt("a: "));
+    var b = parseInt(prompt("b: "));
+    var c = parseInt(prompt("c: "));
+
+    function minInt(a, b, c) {
+        let min = a;
+        if (b < min) min = b;
+        else if (c < min) min = c;
+        return min;
+    }
+
+    var result = minInt(a, b, c);
+    document.write("Min output: " + result);
+
+
+</script>
+</body>
+</html>
